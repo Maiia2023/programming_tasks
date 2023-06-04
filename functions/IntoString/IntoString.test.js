@@ -1,5 +1,5 @@
-import { IntoString } from './IntoString.js';
+import { intoString } from './intoString.js';
 
-console.log(IntoString(123) === "123");
-console.log(IntoString(999) === "999");
-console.log(IntoString(-100) === "-100");
+console.log(intoString(123) === "123");
+console.log(intoString(999) === "999");
+console.log(intoString(-100) === "-100");
