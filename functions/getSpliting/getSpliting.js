@@ -6,16 +6,16 @@
  */
 
 export const getSpliting = (a, b) => {
-  const isValida = typeof a === 'number' &&
+  const isValidA = typeof a === 'number' &&
     a > 0 &&
     a >= b &&
     Number.isInteger(a);
 
-  const isValidb = typeof b ==='number' &&
+  const isValidB = typeof b === 'number' &&
     b > 0 &&
     Number.isInteger(b);
 
-  if (!isValida || !isValidb || !Number.isInteger(a/b)) return;
+  if (!isValidA || !isValidB || !Number.isInteger(a/b)) return;
 
   return a / b;
 };
