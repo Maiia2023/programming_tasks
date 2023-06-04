@@ -1,4 +1,4 @@
-import {getSpliting} from "./getSpliting.js";
+import {getSpliting} from './getSpliting.js';
 
 console.log(getSpliting('5', 5) ===  undefined);
 console.log(getSpliting(5, true) ===  undefined);
