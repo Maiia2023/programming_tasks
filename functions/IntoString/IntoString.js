@@ -1,3 +1,1 @@
-export const IntoString = (num) => {
-  return String(num);
-};
+export const intoString = num => String(num);
