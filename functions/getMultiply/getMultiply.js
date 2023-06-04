@@ -6,15 +6,15 @@
  */
 
 export const getMultiply = (a, b) => {
-  const isValida = typeof a === 'number' &&
+  const isValidA = typeof a === 'number' &&
     a > 0 &&
     Number.isInteger(a);
 
-  const isValidb = typeof b === 'number' &&
+  const isValidB = typeof b === 'number' &&
     b > 0 &&
     Number.isInteger(b);
 
-  if (!isValida || !isValidb) return;
+  if (!isValidA || !isValidB) return;
 
   return a * b;
 };
